@@ -1,5 +1,7 @@
 # Windows-basic-commands-batchscript
 Ex08-Windows-basic-commands-batchscript
+### NAME: KEERTHANA.V
+### REGISTER NUMBER: 212223220045
 
 # AIM:
 To execute Windows basic commands and batch scripting
@@ -29,25 +31,60 @@ Create a directory named "MyLab" on the desktop.
 
 
 ## COMMAND AND OUTPUT
+```
+C:\Users\Keert\OneDrive\Desktop\MyLab
+```
+<img width="424" alt="image" src="https://github.com/user-attachments/assets/af778ab1-6069-4211-acc5-22754db6a2bd">
+
 
 Change to the "MyLab" directory and create an empty text file named "MyFile.txt" inside it.
 
 
 ## COMMAND AND OUTPUT
+```
+cd  C:\Users\Keert\OneDrive\Desktop\MyLab
+```
+<img width="422" alt="image" src="https://github.com/user-attachments/assets/c771d83f-93b9-4ec3-aee5-2a4a182459ba">
+
+```
+type nul > MyFile.txt
+
+```
+<img width="435" alt="image" src="https://github.com/user-attachments/assets/3ca18c70-971d-444d-8294-d2372cae0aac">
+
 
 List the contents of the "MyLab" directory.
 
 
 ## COMMAND AND OUTPUT
+```
+dir C:\Users\Keert\OneDrive\Desktop\MyLab
+```
+<img width="573" alt="image" src="https://github.com/user-attachments/assets/65698e54-5d4b-47e5-9f2a-182936b8cbe1">
+
+
 
 Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
 
 ## COMMAND AND OUTPUT
+```
+mkdir C:\Users\Keert\OneDrive\Desktop\Backup
+```
+<img width="603" alt="image" src="https://github.com/user-attachments/assets/f64f77d0-4c87-433e-aee0-9b19deb64f86">
+
+```
+copy MyFile.txt C:\Users\Keert\OneDrive\Desktop\Backup
+```
+<img width="661" alt="image" src="https://github.com/user-attachments/assets/1c7584ce-6f9b-4bcf-a997-025f13962b46">
 
 Move the "MyLab" directory to the "Documents" folder.
 
-
 ## COMMAND AND OUTPUT
+```
+mkdir C:\Users\Keert\OneDrive\Desktop\Document
+move MyLab Document
+```
+<img width="419" alt="image" src="https://github.com/user-attachments/assets/f38280a6-4a5a-47a6-99b5-4ca9f34a2f72">
 
 
 ## Exercise 2: Advanced Batch Scripting
